@@ -154,7 +154,7 @@ function Register() {
               className="form-input"
             >
               <option value="">Select Role</option>
-              <option value="Admin">Admin</option>
+              
               <option value="Doctor">Doctor</option>
               <option value="Patient">Patient</option>
             </select>

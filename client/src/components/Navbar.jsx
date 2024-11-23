@@ -31,7 +31,7 @@ const Navbar = () => {
     <header>
       <nav className={iconActive ? "nav-active" : ""}>
         <h2 className="nav-logo">
-          <NavLink to={"/"}>Doctor's Appointment</NavLink>
+          <NavLink to={"/"}>Orion Dental Clinic</NavLink>
         </h2>
         <ul className="nav-links">
           <li>
@@ -39,42 +39,42 @@ const Navbar = () => {
           </li>
           {user && user.role === "Doctor" && (
             <>
-              <li>
-                <NavLink to={"/applyfordoctor"}>Apply for doctor</NavLink>
-              </li>
+              {/* <li> */}
+                {/* <NavLink to={"/applyfordoctor"}>Apply for doctor</NavLink> */}
+              {/* </li> */}
               <li>
                 <NavLink to={"/appointments"}>Appointments</NavLink>
               </li>
               <li>
                 <NavLink to={"/notifications"}>Notifications</NavLink>
               </li>
-              <li>
-                <HashLink to={"/#contact"}>Contact Us</HashLink>
-              </li>
+              {/* <li> */}
+                {/* <HashLink to={"/#contact"}>Contact Us</HashLink> */}
+              {/* </li> */}
               <li>
                 <NavLink to={"/profile"}>Profile</NavLink>
               </li>
               <li>
-                <NavLink to={"/ChangePassword"}>ChangePassword</NavLink>
+                <NavLink to={"/ChangePassword"}>Update Password</NavLink>
               </li>
             </>
           )}
           {user && user.role === "Patient" && (
             <>
               <li>
-                <NavLink to={"/doctors"}>Doctors</NavLink>
+                <NavLink to={"/doctors"}>Book an Appointment</NavLink>
               </li>
               <li>
                 <NavLink to={"/notifications"}>Notifications</NavLink>
               </li>
-              <li>
-                <HashLink to={"/#contact"}>Contact Us</HashLink>
-              </li>
+              {/* <li> */}
+                {/* <HashLink to={"/#contact"}>Contact Us</HashLink> */}
+              {/* </li> */}
               <li>
                 <NavLink to={"/profile"}>Profile</NavLink>
               </li>
               <li>
-                <NavLink to={"/ChangePassword"}>ChangePassword</NavLink>
+                <NavLink to={"/ChangePassword"}>Update Password</NavLink>
               </li>
             </>
           )}

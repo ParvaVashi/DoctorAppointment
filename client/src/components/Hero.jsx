@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../images/heroimg.jpg";
+import image from "../images/heroimg1.png";
 import "../styles/hero.css";
 
 const Hero = () => {
@@ -8,12 +8,10 @@ const Hero = () => {
       <div className="hero-content">
         <h1>
           Your Health, <br />
-          Our Responsibility
+          My Responsibility
         </h1>
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
-          tenetur doloremque molestias repellat minus asperiores in aperiam
-          dolor, quaerat praesentium.
+        Dr. Mit Patel, MDS, is an experienced Prosthodontist and Implantologist dedicated to restoring smiles with precision and care. Specializing in dental implants and prosthetics, Dr. Patel provides tailored treatment solutions, ensuring comfort and quality for each patient. His expertise and compassionate approach make him a trusted choice for those seeking exceptional dental care.
         </p>
       </div>
       <div className="hero-img">

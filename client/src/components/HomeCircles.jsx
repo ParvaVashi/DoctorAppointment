@@ -8,7 +8,7 @@ const HomeCircles = () => {
       <div className="circle">
         <CountUp
           start={0}
-          end={1000}
+          end={20}
           delay={0}
           enableScrollSpy={true}
           scrollSpyDelay={500}
@@ -20,15 +20,15 @@ const HomeCircles = () => {
           )}
         </CountUp>
         <span className="circle-name">
-          Satisfied
+          Years of
           <br />
-          Patients
+          Trusted Care
         </span>
       </div>
       <div className="circle">
         <CountUp
           start={0}
-          end={250}
+          end={1500}
           delay={0}
           enableScrollSpy={true}
           scrollSpyDelay={500}
@@ -40,15 +40,15 @@ const HomeCircles = () => {
           )}
         </CountUp>
         <span className="circle-name">
-          Verified
+          Successful
           <br />
-          Doctors
+          Treatements
         </span>
       </div>
       <div className="circle">
         <CountUp
           start={0}
-          end={75}
+          end={200}
           delay={0}
           enableScrollSpy={true}
           scrollSpyDelay={500}
@@ -60,9 +60,29 @@ const HomeCircles = () => {
           )}
         </CountUp>
         <span className="circle-name">
-          Specialist
+          Positive
           <br />
-          Doctors
+          Patient Review
+        </span>
+      </div>
+      <div className="circle">
+        <CountUp
+          start={0}
+          end={15}
+          delay={0}
+          enableScrollSpy={true}
+          scrollSpyDelay={500}
+        >
+          {({ countUpRef }) => (
+            <div className="counter">
+              <span ref={countUpRef} />+
+            </div>
+          )}
+        </CountUp>
+        <span className="circle-name">
+          Trained Support
+          <br />
+          Staff
         </span>
       </div>
     </section>

@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../images/aboutimg.jpg";
+import image from "../images/aboutimg1.jpg";
 
 const AboutUs = () => {
   return (
@@ -15,13 +15,7 @@ const AboutUs = () => {
           </div>
           <div className="hero-content">
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Quibusdam tenetur doloremque molestias repellat minus asperiores
-              in aperiam dolor, quaerat praesentium. Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Voluptatibus, repudiandae! Lorem
-              ipsum dolor sit amet consectetur adipisicing elit. Provident
-              quibusdam doloremque ex? Officia atque ab dolore? Tempore totam
-              non ea!
+            Welcome to Orion Dental Clinic’s online booking system! We’re dedicated to making dental care accessible and convenient, offering easy appointment scheduling for all our services—from routine cleanings to specialized treatments. With a focus on quality care and patient comfort, Orion Dental Clinic is here to help you achieve a healthy, confident smile. Book your appointment today!
             </p>
           </div>
         </div>
